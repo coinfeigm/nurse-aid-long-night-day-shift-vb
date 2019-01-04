@@ -1,0 +1,2822 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0060C
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetSaiyoIdo">
+ <summary>
+ 採用履歴を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetKinmuDeptIdo">
+ <summary>
+ 勤務部署異動情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetSaikeiIdo">
+ <summary>
+ 再掲異動情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetWardDeptIdo">
+ <summary>
+ 配属部署異動情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetPostIdo">
+ <summary>
+ 役職異動情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetJobIdo">
+ <summary>
+ 職種異動情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetKenmuIdo">
+ <summary>
+ 兼務情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetMenkyoInfo">
+ <summary>
+ 免許情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetShikakuInfo">
+ <summary>
+ 資格情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetIinInfo">
+ <summary>
+ 委員情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetSyokurekiInfo">
+ <summary>
+ 職歴情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetIppanGakurekiInfo">
+ <summary>
+ 一般学歴情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetSenmonGakurekiInfo">
+ <summary>
+ 専門学歴情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetChoukyuInfo">
+ <summary>
+ 長休情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetSankyuInfo">
+ <summary>
+ 産休情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetKyoukaiInfo">
+ <summary>
+ 協会情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetKazokuInfo">
+ <summary>
+ 家族情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetGyosekiInfo">
+ <summary>
+ 業績情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSI_SaiyoIdx">
+ <summary>
+ 採用異動索引をセットする
+ </summary>
+ <param name="Value">採用異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mKI_KinmuDeptIdx">
+ <summary>
+ 勤務部署異動索引をセットする
+ </summary>
+ <param name="Value">勤務部署異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSAI_KinmuDeptIdx">
+ <summary>
+ 勤務部署異動索引をセットする
+ </summary>
+ <param name="Value">勤務部署異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mWI_WardDeptIdx">
+ <summary>
+ 配属部署異動索引をセットする
+ </summary>
+ <param name="Value">配属部署異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mPI_PostIdx">
+ <summary>
+ 役職異動索引をセットする
+ </summary>
+ <param name="Value">役職異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mJI_JobIdx">
+ <summary>
+ 職種異動索引をセットする
+ </summary>
+ <param name="Value">職種異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mKE_KenmuIdx">
+ <summary>
+ 兼務異動索引をセットする
+ </summary>
+ <param name="Value">兼務異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mLI_MenkyoIdx">
+ <summary>
+ 免許情報索引をセットする
+ </summary>
+ <param name="Value">免許情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSH_ShikakuIdx">
+ <summary>
+ 資格情報索引をセットする
+ </summary>
+ <param name="Value">資格情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mII_IinIdx">
+ <summary>
+ 委員情報索引をセットする
+ </summary>
+ <param name="Value">委員情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mJC_SyokurekiIdx">
+ <summary>
+ 職歴情報索引をセットする
+ </summary>
+ <param name="Value">職歴情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mGS_IppanGakurekiIdx">
+ <summary>
+ 一般学歴情報索引をセットする
+ </summary>
+ <param name="Value">一般学歴情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSS_SenmonGakurekiIdx">
+ <summary>
+ 専門学歴情報索引をセットする
+ </summary>
+ <param name="Value">専門学歴情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mLL_ChoukyuIdx">
+ <summary>
+ 長休情報索引をセットする
+ </summary>
+ <param name="Value">長休情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSK_SankyuIdx">
+ <summary>
+ 産休情報索引をセットする
+ </summary>
+ <param name="Value">産休情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSO_KyoukaiIdx">
+ <summary>
+ 産休情報索引をセットする
+ </summary>
+ <param name="Value">産休情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mKY_KazokuIdx">
+ <summary>
+ 家族情報索引をセットする
+ </summary>
+ <param name="Value">家族情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pHospitalCD">
+ <summary>
+ 病院CDをセットする
+ </summary>
+ <param name="Value">病院CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pStaffMngID">
+ <summary>
+ 職員管理番号をセットする
+ </summary>
+ <param name="Value">職員管理番号</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pDateFlg">
+ <summary>
+ 日付区分をセットする
+ </summary>
+ <param name="Value">日付区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pDateFrom">
+ <summary>
+ 開始年月日をセットする
+ </summary>
+ <param name="Value"></param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pDateTo">
+ <summary>
+ 終了年月日をセットする
+ </summary>
+ <param name="Value"></param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pSortFlg">
+ <summary>
+ ソート順をセットする
+ </summary>
+ <param name="Value">ソート順</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pNendo">
+ <summary>
+ 年度をセットする
+ </summary>
+ <param name="Value">年度</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.pDelKbn">
+ <summary>
+ 削除状況をセットする
+ </summary>
+ <param name="Value">削除状況</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSD_StudyIdx">
+ <summary>
+ 研修情報索引をセットする
+ </summary>
+ <param name="Value">研修情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mSD_StudyDateIdx">
+ <summary>
+ 研修日付情報索引をセットする
+ </summary>
+ <param name="Value">研修日付情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mGY_GyosekiIdx">
+ <summary>
+ 業績情報索引をセットする
+ </summary>
+ <param name="Value">業績情報索引</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_SaiyoCount">
+ <summary>
+ 採用異動件数を取得する
+ </summary>
+ <returns>採用異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_EmpCD">
+ <summary>
+ 採用コードを取得する
+ </summary>
+ <returns>採用コード</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_EmpName">
+ <summary>
+ 採用名称を取得する
+ </summary>
+ <returns>採用名称</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_EmpSecName">
+ <summary>
+ 採用略称を取得する
+ </summary>
+ <returns>採用略称</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_EmpDate">
+ <summary>
+ 採用日付を取得する
+ </summary>
+ <returns>採用日付</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_RetireCD">
+ <summary>
+ 退職コードを取得する
+ </summary>
+ <returns>退職コード</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_RetireName">
+ <summary>
+ 退職名称を取得する
+ </summary>
+ <returns>退職名称</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_RetireDate">
+ <summary>
+ 退職日付を取得する
+ </summary>
+ <returns>退職日付</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSI_StaffID">
+ <summary>
+ 職員番号を取得する
+ </summary>
+ <returns>職員番号</returns>
+ <remarks>採用異動履歴インデックスが０、または、採用異動履歴件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_KinmuDeptCount">
+ <summary>
+ 勤務部署異動件数を取得する
+ </summary>
+ <returns>勤務部署異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_CD">
+ <summary>
+ コードを取得する
+ </summary>
+ <returns>コード</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_Name">
+ <summary>
+ 名称を取得する
+ </summary>
+ <returns>名称</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_DateFrom">
+ <summary>
+ 開始日を取得する
+ </summary>
+ <returns>開始日</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_DateTo">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>勤務部署異動インデックスが０、または、勤務部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_IdoHope">
+ <summary>
+ 異動希望を取得する
+ </summary>
+ <returns>異動希望</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_SecName">
+ <summary>
+ 略称を取得する
+ </summary>
+ <returns>略称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKI_DispNo">
+ <summary>
+ 表示順を取得する
+ </summary>
+ <returns>表示順</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_KinmuDeptCount">
+ <summary>
+ 勤務部署異動件数を取得する
+ </summary>
+ <returns>勤務部署異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_CD">
+ <summary>
+ コードを取得する
+ </summary>
+ <returns>コード</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_Name">
+ <summary>
+ 名称を取得する
+ </summary>
+ <returns>名称</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_DateFrom">
+ <summary>
+ 開始日を取得する
+ </summary>
+ <returns>開始日</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_DateTo">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSAI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>再掲異動インデックスが０、または、再掲異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_WardDeptCount">
+ <summary>
+ 配属部署異動件数を取得する
+ </summary>
+ <returns>配属部署異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_CD">
+ <summary>
+ コードを取得する
+ </summary>
+ <returns>コード</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_Name">
+ <summary>
+ 名称を取得する
+ </summary>
+ <returns>名称</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_DateFrom">
+ <summary>
+ 開始日を取得する
+ </summary>
+ <returns>開始日</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_DateTo">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fWI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>配属部署異動インデックスが０、または、配属部署異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_PostCount">
+ <summary>
+ 役職異動件数を取得する
+ </summary>
+ <returns>役職異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_CD">
+ <summary>
+ コードを取得する
+ </summary>
+ <returns>コード</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_Name">
+ <summary>
+ 名称を取得する
+ </summary>
+ <returns>名称</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_SecName">
+ <summary>
+ 略称を取得する
+ </summary>
+ <returns>略称</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_DateFrom">
+ <summary>
+ 開始日を取得する
+ </summary>
+ <returns>開始日</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_DateTo">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fPI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>役職異動インデックスが０、または、役職異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_JobCount">
+ <summary>
+ 職種異動件数を取得する
+ </summary>
+ <returns>職種異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_CD">
+ <summary>
+ コードを取得する
+ </summary>
+ <returns>コード</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_Name">
+ <summary>
+ 名称を取得する
+ </summary>
+ <returns>名称</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_SecName">
+ <summary>
+ 略称を取得する
+ </summary>
+ <returns>略称</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_DateFrom">
+ <summary>
+ 開始日を取得する
+ </summary>
+ <returns>開始日</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_DateTo">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>職種異動インデックスが０、または、職種異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_KenmuCount">
+ <summary>
+ 兼務異動件数を取得する
+ </summary>
+ <returns>兼務異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_WardDeptCD">
+ <summary>
+ 配属部署コードを取得する
+ </summary>
+ <returns>配属部署コード</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_WardDeptName">
+ <summary>
+ 配属部署名称を取得する
+ </summary>
+ <returns>配属部署名称</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_KinmuDeptCD">
+ <summary>
+ 勤務部署コードを取得する
+ </summary>
+ <returns>勤務部署コード</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_KinmuDeptName">
+ <summary>
+ 勤務部署名称を取得する
+ </summary>
+ <returns>勤務部署名称</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_PostCD">
+ <summary>
+ 役職コードを取得する
+ </summary>
+ <returns>役職コード</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_PostName">
+ <summary>
+ 役職名称を取得する
+ </summary>
+ <returns>役職名称</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_DateFrom">
+ <summary>
+ 開始日を取得する
+ </summary>
+ <returns>開始日</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_SEQ">
+ <summary>
+ SEQを取得する
+ </summary>
+ <returns>SEQ</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_DateTo">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKE_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>兼務異動インデックスが０、または、兼務異動件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_MenkyoCount">
+ <summary>
+ 免許情報件数を取得する
+ </summary>
+ <returns>免許情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_MenkyoCD">
+ <summary>
+ 免許コードを取得する
+ </summary>
+ <returns>免許コード</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_MenkyoName">
+ <summary>
+ 免許名称を取得する
+ </summary>
+ <returns>免許名称</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_MenkyoNo">
+ <summary>
+ 免許番号を取得する
+ </summary>
+ <returns>免許番号</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_JapanAreaCD">
+ <summary>
+ 都道府県コードを取得する
+ </summary>
+ <returns>都道府県コード</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_JapanAreaName">
+ <summary>
+ 都道府県名称を取得する
+ </summary>
+ <returns>都道府県名称</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_GetDate">
+ <summary>-
+ 取得年月日を取得する
+ </summary>
+ <returns>取得年月日</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>免許情報インデックスが０、または、免許情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_ShikakuCount">
+ <summary>
+ 資格情報件数を取得する
+ </summary>
+ <returns>資格情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_ShikakuCD">
+ <summary>
+ 資格コードを取得する
+ </summary>
+ <returns>資格コード</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_ShikakuName">
+ <summary>
+ 資格名称を取得する
+ </summary>
+ <returns>資格名称</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_GetDate">
+ <summary>
+ 取得年月日を取得する
+ </summary>
+ <returns>取得年月日</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_DateFrom">
+ <summary>
+ 開始年月日を取得する
+ </summary>
+ <returns>開始年月日</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_DateTo">
+ <summary>
+ 終了年月日を取得する
+ </summary>
+ <returns>終了年月日</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSH_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>資格情報インデックスが０、または、資格情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_IinCount">
+ <summary>
+ 委員情報件数を取得する
+ </summary>
+ <returns>委員情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_HospitalCD">
+ <summary>
+ 院コードを取得する
+ </summary>
+ <returns>院コード</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_IinCD">
+ <summary>
+ 委員コードを取得する
+ </summary>
+ <returns>委員コード</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_IinName">
+ <summary>
+ 委員名称を取得する
+ </summary>
+ <returns>委員名称</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_DateFrom">
+ <summary>
+ 開始年月日を取得する
+ </summary>
+ <returns>開始年月日</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_DateTo">
+ <summary>
+ 終了年月日を取得する
+ </summary>
+ <returns>終了年月日</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_IinPostName">
+ <summary>
+ 委員役職名称
+ </summary>
+ <returns>委員役職名称</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fII_IinPostCd">
+ <summary>
+ 委員役職CD
+ </summary>
+ <returns>委員役職CD</returns>
+ <remarks>委員情報インデックスが０、または、委員情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_SyokurekiCount">
+ <summary>
+ 職歴情報件数を取得する
+ </summary>
+ <returns>職歴情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_KinmuchiCD">
+ <summary>
+ 勤務地コードを取得する
+ </summary>
+ <returns>勤務地コード</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_KinmuchiName">
+ <summary>
+ 勤務地名称を取得する
+ </summary>
+ <returns>勤務地名称</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_DateFrom">
+ <summary>
+ 開始年月日を取得する
+ </summary>
+ <returns>開始年月日</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_DateTo">
+ <summary>
+ 終了年月日を取得する
+ </summary>
+ <returns>終了年月日</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_KinmuKikan">
+ <summary>
+ 勤務機関を取得する
+ </summary>
+ <returns>勤務機関</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_ExpMedicalName">
+ <summary>
+ 経験診療科を取得する
+ </summary>
+ <returns>経験診療科</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fJC_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>職歴情報インデックスが０、または、職歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_IppanGakurekiCount">
+ <summary>
+ 一般学歴情報件数を取得する
+ </summary>
+ <returns>一般学歴情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_Kbn">
+ <summary>
+ 区分を取得する
+ </summary>
+ <returns>区分</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_KbnName">
+ <summary>
+ 区分名称を取得する
+ </summary>
+ <returns>区分名称</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_ChiikiCD">
+ <summary>
+ 地域コードを取得する
+ </summary>
+ <returns>地域コード</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_ChiikiName">
+ <summary>
+ 地域名称を取得する
+ </summary>
+ <returns>地域名称</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_LastKbn">
+ <summary>
+ 最終学歴区分を取得する
+ </summary>
+ <returns>最終学歴区分</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_LastDate">
+ <summary>
+ 卒業年月日を取得する
+ </summary>
+ <returns>卒業年月日</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_SchoolCD">
+ <summary>
+ 学校コードを取得する
+ </summary>
+ <returns>学校コード</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_SchoolName">
+ <summary>
+ 学校名を取得する
+ </summary>
+ <returns>学校名</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGS_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>一般学歴情報インデックスが０、または、一般学歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_SenmonGakurekiCount">
+ <summary>
+ 専門学歴情報件数を取得する
+ </summary>
+ <returns>専門学歴情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_Kbn">
+ <summary>
+ 区分を取得する
+ </summary>
+ <returns>区分</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_KbnName">
+ <summary>
+ 区分名称を取得する
+ </summary>
+ <returns>区分名称</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_ChiikiCD">
+ <summary>
+ 地域コードを取得する
+ </summary>
+ <returns>地域コード</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_ChiikiName">
+ <summary>
+ 地域名称を取得する
+ </summary>
+ <returns>地域名称</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_LastKbn">
+ <summary>
+ 最終学歴区分を取得する
+ </summary>
+ <returns>最終学歴区分</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_LastDate">
+ <summary>
+ 卒業年月日を取得する
+ </summary>
+ <returns>卒業年月日</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_SchoolCD">
+ <summary>
+ 学校コードを取得する
+ </summary>
+ <returns>学校コード</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_SchoolName">
+ <summary>
+ 学校名を取得する
+ </summary>
+ <returns>学校名</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSS_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>専門学歴情報インデックスが０、または、専門学歴情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_ChoukyuCount">
+ <summary>
+ 長休情報件数を取得する
+ </summary>
+ <returns>長休情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_CD">
+ <summary>
+ コードを取得する
+ </summary>
+ <returns>コード</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_Name">
+ <summary>
+ 名称を取得する
+ </summary>
+ <returns>名称</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_DateFrom">
+ <summary>
+ 開始年月日を取得する
+ </summary>
+ <returns>開始年月日</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_DateTo">
+ <summary>
+ 終了年月日を取得する
+ </summary>
+ <returns>終了年月日</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_WeeklyTime">
+ <summary>
+ 週労働時間を取得する
+ </summary>
+ <returns>週労働時間</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fLL_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>長休情報インデックスが０、または、長休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_SankyuCount">
+ <summary>
+ 産休情報件数を取得する
+ </summary>
+ <returns>産休情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_SEQ">
+ <summary>
+ SEQを取得する
+ </summary>
+ <returns>SEQ</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanDate">
+ <summary>
+ 予定年月日を取得する
+ </summary>
+ <returns>予定年月日</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_TwinFlg">
+ <summary>
+ 双胎区分を取得する
+ </summary>
+ <returns>双胎区分</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_BirthDate">
+ <summary>
+ 出産年月日を取得する
+ </summary>
+ <returns>出産年月日</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanSanzenYamenFrom">
+ <summary>
+ 予定産前夜免Fromを取得する
+ </summary>
+ <returns>予定産前夜免From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanSanzenYamenTo">
+ <summary>
+ 予定産前夜免Toを取得する
+ </summary>
+ <returns>予定産前夜免To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanSanzenHolFrom">
+ <summary>
+ 予定産前休暇Fromを取得する
+ </summary>
+ <returns>予定産前休暇From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanSanzenHolTo">
+ <summary>
+ 予定産前休暇Toを取得する
+ </summary>
+ <returns>予定産前休暇To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanSangoHolFrom">
+ <summary>
+ 予定産後休暇Fromを取得する
+ </summary>
+ <returns>予定産後休暇From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanSangoHolTo">
+ <summary>
+ 予定産後休暇Toを取得する
+ </summary>
+ <returns>予定産後休暇To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanIkujiHolFrom">
+ <summary>
+ 予定育児休暇Fromを取得する
+ </summary>
+ <returns>予定育児休暇From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_PlanIkujiHolTo">
+ <summary>
+ 予定育児休暇Toを取得する
+ </summary>
+ <returns>予定育児休暇To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedSanzenYamenFrom">
+ <summary>
+ 確定産前夜免Fromを取得する
+ </summary>
+ <returns>確定産前夜免From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedSanzenYamenTo">
+ <summary>
+ 確定産前夜免Toを取得する
+ </summary>
+ <returns>確定産前夜免To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedSanzenHolFrom">
+ <summary>
+ 確定産前休暇Fromを取得する
+ </summary>
+ <returns>確定産前休暇From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedSanzenHolTo">
+ <summary>
+ 確定産前休暇Toを取得する
+ </summary>
+ <returns>確定産前休暇To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedSangoHolFrom">
+ <summary>
+ 確定産後休暇Fromを取得する
+ </summary>
+ <returns>確定産後休暇From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedSangoHolTo">
+ <summary>
+ 確定産後休暇Toを取得する
+ </summary>
+ <returns>確定産後休暇To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedIkujiHolFrom">
+ <summary>
+ 確定育児休暇Fromを取得する
+ </summary>
+ <returns>確定育児休暇From</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FixedIkujiHolTo">
+ <summary>
+ 確定育児休暇Toを取得する
+ </summary>
+ <returns>確定育児休暇To</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_FirstTime">
+ <summary>
+ 初回登録日を取得する
+ </summary>
+ <returns>初回登録日</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_UniqueSeqNO">
+ <summary>
+ UniqueSeqNOを取得する
+ </summary>
+ <returns>UniqueSeqNO</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSK_ApproveFlg">
+ <summary>
+ 承認済フラグを取得する
+ </summary>
+ <returns>承認済フラグ</returns>
+ <remarks>産休情報インデックスが０、または、産休情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_KyoukaiCount">
+ <summary>
+ 産休情報件数を取得する
+ </summary>
+ <returns>産休情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_CD">
+ <summary>
+ 協会コードを取得する
+ </summary>
+ <returns>協会コード</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_Name">
+ <summary>
+ 協会名称を取得する
+ </summary>
+ <returns>協会名称</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_Date">
+ <summary>
+ 入会年月日を取得する
+ </summary>
+ <returns>入会年月日</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_WithDrawDate">
+ <summary>
+ 退会年月日を取得する
+ </summary>
+ <returns>退会年月日</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_No">
+ <summary>
+ 協会番号を取得する
+ </summary>
+ <returns>協会番号</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSO_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>協会情報インデックスが０、または、協会情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_KazokuCount">
+ <summary>
+ 家族情報件数を取得する
+ </summary>
+ <returns>家族情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_HospitalCD">
+ <summary>
+ 病院コードを取得する
+ </summary>
+ <returns>病院コード</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_Name">
+ <summary>
+ 家族氏名を取得する
+ </summary>
+ <returns>家族氏名</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_SEQ">
+ <summary>
+ SEQを取得する
+ </summary>
+ <returns>SEQ</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_BirthDay">
+ <summary>
+ 生年月日を取得する
+ </summary>
+ <returns>生年月日</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_TsudukiCD">
+ <summary>
+ 続柄コードを取得する
+ </summary>
+ <returns>続柄コード</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_TsudukiName">
+ <summary>
+ 続柄名称を取得する
+ </summary>
+ <returns>続柄名称</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_DoukyoKbn">
+ <summary>
+ 同居区分を取得する
+ </summary>
+ <returns>同居区分</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_FuyouKbn">
+ <summary>
+ 扶養区分を取得する
+ </summary>
+ <returns>扶養区分</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_SeizonKbn">
+ <summary>
+ 生存区分を取得する
+ </summary>
+ <returns>生存区分</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKY_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>家族情報インデックスが０、または、家族情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetStudyInfo">
+ <summary>
+ 研修情報を取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetStudyInfo2">
+ <summary>
+ 研修情報データを取得する
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_StudyCount">
+ <summary>
+ 研修情報件数を取得する
+ </summary>
+ <returns>研修情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_StudyDateCount">
+ <summary>
+ 研修日付情報件数を取得する
+ </summary>
+ <returns>研修日付情報件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_YYYY">
+ <summary>
+ 年度を取得する
+ </summary>
+ <returns>年度</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_NewFlg">
+ <summary>
+ 既存/新規ﾃﾞｰﾀ 判定ﾌﾗｸﾞを取得する
+ </summary>
+ <returns>既存/新規ﾃﾞｰﾀ 判定ﾌﾗｸﾞ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_ProcFlg">
+ <summary>
+ 処理 判定ﾌﾗｸﾞを取得する
+ </summary>
+ <returns>処理 判定ﾌﾗｸﾞ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_DispIndex">
+ <summary>
+ ﾘｽﾄ表示時のｲﾝﾃﾞｯｸｽを取得する
+ </summary>
+ <returns>ﾘｽﾄ表示時のｲﾝﾃﾞｯｸｽ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_SEQ">
+ <summary>
+ SEQ No.を取得する
+ </summary>
+ <returns>SEQ No.</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_CourseCD">
+ <summary>
+ ｺｰｽｺｰﾄﾞを取得する
+ </summary>
+ <returns>ｺｰｽｺｰﾄﾞ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_KbnCD">
+ <summary>
+ 区分ｺｰﾄﾞを取得する
+ </summary>
+ <returns>区分ｺｰﾄﾞ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_SyuruiCD">
+ <summary>
+ 種類ｺｰﾄﾞを取得する
+ </summary>
+ <returns>種類ｺｰﾄﾞ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_SyusaiCD">
+ <summary>
+ 主催ｺｰﾄﾞを取得する
+ </summary>
+ <returns>主催ｺｰﾄﾞ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_SankaCD">
+ <summary>
+ 参加ｺｰﾄﾞを取得する
+ </summary>
+ <returns>参加ｺｰﾄﾞ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_ApplyStatus">
+ <summary>
+ 受講状況を取得する
+ </summary>
+ <returns>受講状況</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_DeleteStatus">
+ <summary>
+ 削除状況を取得する
+ </summary>
+ <returns>削除状況</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_ApplyRepo">
+ <summary>
+ 受講報告を取得する
+ </summary>
+ <returns>受講報告</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_Biko">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_CourseName">
+ <summary>
+ コース　名称を取得する
+ </summary>
+ <returns>コース　名称</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_KbnName">
+ <summary>
+ 研修区分　名称を取得する
+ </summary>
+ <returns>研修区分　名称</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_SyuruiName">
+ <summary>
+ 種類　名称を取得する
+ </summary>
+ <returns>種類　名称</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_SyusaiName">
+ <summary>
+ 主催　名称を取得する
+ </summary>
+ <returns>主催　名称</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_SankaName">
+ <summary>
+ 参加　名称を取得する
+ </summary>
+ <returns>参加　名称</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_Thema">
+ <summary>
+ テーマを取得する
+ </summary>
+ <returns>テーマ</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_PlaningFLG">
+ <summary>
+ 計画FLGを取得する
+ </summary>
+ <returns>計画FLG</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_CostCD">
+ <summary>
+ 費用CDを取得する
+ </summary>
+ <returns>費用CD</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_CostName">
+ <summary>
+ 費用名称を取得する
+ </summary>
+ <returns>費用名称</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_Date">
+ <summary>
+ 日程を一まとめにしたものを取得する
+ </summary>
+ <returns>日程を一まとめにしたもの</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_FromDate">
+ <summary>
+ 開始日を取得する
+ </summary>
+ <returns>開始日</returns>
+ <remarks>
+ 研修情報インデックスが０、または、研修情報件数が０の場合、0を取得する<br />
+ 上記以外で、研修日付情報インデックスが０、または、研修日付情報件数が０の場合、0を取得する
+ </remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_ToDate">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks>
+ 研修情報インデックスが０、または、研修情報件数が０の場合、0を取得する<br />
+ 上記以外で、研修日付情報インデックスが０、または、研修日付情報件数が０の場合、0を取得する
+ </remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_DateType">
+ <summary>
+ 期間のタイプを取得する
+ </summary>
+ <returns>期間のタイプ</returns>
+ <remarks>
+ 研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する<br />
+ 上記以外で、研修日付情報インデックスが０、または、研修日付情報件数が０の場合、""を取得する
+ </remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_CostCD2">
+ <summary>
+ 費用CD2(研修申込F)を取得する
+ </summary>
+ <returns>費用CD2(研修申込F)</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fSD_CostName2">
+ <summary>
+ 費用名称2(研修申込F)を取得する
+ </summary>
+ <returns>費用名称2(研修申込F)</returns>
+ <remarks>研修情報インデックスが０、または、研修情報件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_HospitalCD">
+ <summary>
+ 業績情報f病院コードを取得する
+ </summary>
+ <returns>業績情報f病院コード</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_StaffMngID">
+ <summary>
+ 業績情報f職員管理番号を取得する
+ </summary>
+ <returns>業績情報f職員管理番号</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_GyosekiCount">
+ <summary>
+ 業績情報f件数を取得する
+ </summary>
+ <returns>業績情報f件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_GyosekiCD">
+ <summary>
+ 業績情報f業績コードを取得する
+ </summary>
+ <returns>業績情報f業績コード</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_GyosekiName">
+ <summary>
+ 業績情報f業績名称を取得する
+ </summary>
+ <returns>業績情報f業績名称</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_FromDate">
+ <summary>
+ 業績情報f開始年月日を取得する
+ </summary>
+ <returns>業績情報f開始年月日</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_ToDate">
+ <summary>
+ 業績情報f終了年月日を取得する
+ </summary>
+ <returns>業績情報f終了年月日</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_Subject">
+ <summary>
+ 業績情報f演題を取得する
+ </summary>
+ <returns>業績情報f演題</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_GyosekiPlaceCD">
+ <summary>
+ 業績情報f業績発表場所コードを取得する
+ </summary>
+ <returns>業績情報f業績発表場所コード</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_GyosekiPlaceName">
+ <summary>
+ 業績情報f業績発表場所名称を取得する
+ </summary>
+ <returns>業績情報f業績発表場所名称</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_GyosekiBikou">
+ <summary>
+ 業績情報f業績備考を取得する
+ </summary>
+ <returns>業績情報f業績備考</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_FirstTime">
+ <summary>
+ 業績情報f初回登録日時を取得する
+ </summary>
+ <returns>業績情報f初回登録日時</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_UpdTime">
+ <summary>
+ 業績情報f最終更新日時を取得する
+ </summary>
+ <returns>業績情報f最終更新日時</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fGY_Seq">
+ <summary>
+ SEQを取得する
+ </summary>
+ <returns>SEQ</returns>
+ <remarks>業績インデックスが０、または、業績件数が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetSaiyoIdo">
+ <summary>
+ 採用異動情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetKinmuDeptIdo">
+ <summary>
+ 勤務部署異動情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetSaikeiIdo">
+ <summary>
+ 再掲部署異動情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetWardDeptIdo">
+ <summary>
+ 配属部署異動情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetPostIdo">
+ <summary>
+ 役職異動情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetJobIdo">
+ <summary>
+ 職種異動情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetKenmuIdo">
+ <summary>
+ 兼務異動情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetMenkyoInfo">
+ <summary>
+ 免許情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetShikakuInfo">
+ <summary>
+ 資格情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetIinInfo">
+ <summary>
+ 委員情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetSyokurekiInfo">
+ <summary>
+ 職歴情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetIppanGakurekiInfo">
+ <summary>
+ 一般学歴情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetSenmonGakurekiInfo">
+ <summary>
+ 専門学歴情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetChoukyuInfo">
+ <summary>
+ 長休情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetSankyuInfo">
+ <summary>
+ 産休情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetKyoukaiInfo">
+ <summary>
+ 協会情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetKazokuInfo">
+ <summary>
+ 家族情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetStudyInfo">
+ <summary>
+ 研修情報を取得
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetStudyInfoSub">
+ <summary>
+ 研修日付情報の読み込み
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetGyosekiInfo">
+ <summary>
+ 業績情報取得
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetShortTimeIdo">
+ <summary>
+ 短時間制度取得者取得（呼出）
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetShortTimeIdo">
+ <summary>
+ 短時間制度取得者取得（実処理）
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mST_ShortTimeIdx">
+ <summary>
+ 短時間用インデックス設定
+ </summary>
+ <value></value>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_ShortTimeCount">
+ <summary>
+ 短時間制度取得数
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_HospitalCD">
+ <summary>
+ 短時間制度者・病院コード
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_StaffMngID">
+ <summary>
+ 短時間制度者・職員管理番号
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_DateFrom">
+ <summary>
+ 短時間制度者・開始日
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_DateTo">
+ <summary>
+ 短時間制度者・終了日
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_ReasonCd">
+ <summary>
+ 短時間制度者・理由コード
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_Name">
+ <summary>
+ 短時間制度者・名称
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_SecName">
+ <summary>
+ 短時間制度者・略称
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_BirthDate">
+ <summary>
+ 短時間制度者・出産日
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_FirstTime">
+ <summary>
+ 短時間制度者・初回登録日時
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_LastUpdTime">
+ <summary>
+ 短時間制度者・最終更新日時
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fST_RegUserID">
+ <summary>
+ 短時間制度者・登録者ID
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetNightWorkerIdo">
+ <summary>
+ 夜勤専従者取得（呼出）
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fncGetNightWorkerIdo">
+ <summary>
+ 夜勤専従者取得（実処理）
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mNW_NightWorkerIdx">
+ <summary>
+ 夜勤専従者用インデックス設定
+ </summary>
+ <value></value>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_NightWorkerCount">
+ <summary>
+ 夜勤専従数
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_HospitalCD">
+ <summary>
+ 夜勤専従者・病院コード
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_StaffMngID">
+ <summary>
+ 夜勤専従者・職員管理番号
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_DateFrom">
+ <summary>
+ 夜勤専従者・開始日
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_DateTo">
+ <summary>
+ 夜勤専従者・終了日
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_FirstTime">
+ <summary>
+ 夜勤専従者・初回登録日時
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_LastUpdTime">
+ <summary>
+ 夜勤専従者・最終更新日時
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fNW_RegUserID">
+ <summary>
+ 夜勤専従者・登録者ID
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetHealthCondHis">
+ <summary>
+ 健康状態履歴の取得
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_HospitalCD">
+ <summary>
+ 施設コードを取得する
+ </summary>
+ <returns>施設コード</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_StaffmngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_Seq">
+ <summary>
+ SEQを取得する
+ </summary>
+ <returns>SEQ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_DiseaseDate">
+ <summary>
+ 発症日を取得する
+ </summary>
+ <returns>発症日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_TreatDate">
+ <summary>
+ 治癒日を取得する
+ </summary>
+ <returns>治癒日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_HealthCondCD">
+ <summary>
+ 健康状態コードを取得する
+ </summary>
+ <returns>健康状態コード</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_RegistrantID">
+ <summary>
+ 登録者ＩＤを取得する
+ </summary>
+ <returns>登録者ＩＤ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_HealthCondName">
+ <summary>
+ 健康状態名称を取得する
+ </summary>
+ <returns>健康状態名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHC_Count">
+ <summary>
+ 健康状態履歴の件数を取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mHC_HealthCondHisIdx">
+ <summary>
+ 健康状態履歴索引をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.mGetHBChkHisInfo">
+ <summary>
+ ＨＢ検査履歴情報の取得
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_HospitalCD">
+ <summary>
+ 施設コードを取得する
+ </summary>
+ <returns>施設コード</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_StaffmngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_ExamineDate">
+ <summary>
+ 検査年月日を取得する
+ </summary>
+ <returns>検査年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_SagValueYouinKbn">
+ <summary>
+ sAg値陽性陰性区分を取得する
+ </summary>
+ <returns>sAg値陽性陰性区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_SagValue">
+ <summary>
+ sAg値を取得する
+ </summary>
+ <returns>sAg値</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_SabValueYouinKbn">
+ <summary>
+ sAb値陽性陰性区分を取得する
+ </summary>
+ <returns>sAb値陽性陰性区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_SabValue">
+ <summary>
+ sAb値を取得する
+ </summary>
+ <returns>sAb値</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_EagValuEYouinKbn">
+ <summary>
+ eAg値陽性陰性区分を取得する
+ </summary>
+ <returns>eAg値陽性陰性区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_EagValue">
+ <summary>
+ eAg値を取得する
+ </summary>
+ <returns>eAg値</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_EabValueYouinKbn">
+ <summary>
+ eAb値陽性陰性区分を取得する
+ </summary>
+ <returns>eAb値陽性陰性区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_EabValue">
+ <summary>
+ eAb値を取得する
+ </summary>
+ <returns>eAb値</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_RegistrantID">
+ <summary>
+ 登録者ＩＤを取得する
+ </summary>
+ <returns>登録者ＩＤ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fHBI_Count">
+ <summary>
+ ＨＢ検査履歴情報の件数を取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mHBI_HBChkHisInfoIdx">
+ <summary>
+ ＨＢ検査履歴情報索引をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_HospitalCd">
+ <summary>
+ 施設コードを取得する
+ </summary>
+ <returns>施設コード</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_StaffmngId">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_ByoumeiCd">
+ <summary>
+ 病名コードを取得する
+ </summary>
+ <returns>病名コード</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_Seq">
+ <summary>
+ SEQを取得する
+ </summary>
+ <returns>SEQ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_Byoumei">
+ <summary>
+ 病名を取得する
+ </summary>
+ <returns>病名</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_RegistDate">
+ <summary>
+ 登録日を取得する
+ </summary>
+ <returns>登録日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_EndDate">
+ <summary>
+ 終了日を取得する
+ </summary>
+ <returns>終了日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_KiouKbn">
+ <summary>
+ 既往区分を取得する
+ </summary>
+ <returns>既往区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_KoutaiKbn">
+ <summary>
+ 抗体区分を取得する
+ </summary>
+ <returns>抗体区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_WakuchinKbn">
+ <summary>
+ ワクチン接種区分を取得する
+ </summary>
+ <returns>ワクチン接種区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_WakuchinDate">
+ <summary>
+ ワクチン接種日を取得する
+ </summary>
+ <returns>ワクチン接種日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_Bikou">
+ <summary>
+ 備考を取得する
+ </summary>
+ <returns>備考</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_FirstTime">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_UpdTime">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_RegistrantID">
+ <summary>
+ 登録者ＩＤを取得する
+ </summary>
+ <returns>登録者ＩＤ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0060C.clsStaffIdo.fKH_Count">
+ <summary>
+ 感染症歴の件数を取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0060C.clsStaffIdo.mKH_KansensyouHisIdx">
+ <summary>
+ 感染症歴索引をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

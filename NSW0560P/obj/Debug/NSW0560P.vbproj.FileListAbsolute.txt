@@ -1,0 +1,18 @@
+C:\Users\developer\Desktop\clit\TOKUDAI\NSW0560P\obj\Debug\NSW0560P.vbprojResolveAssemblyReference.cache
+C:\Users\developer\Desktop\clit\Module\NSW0560P.dll.config
+C:\Users\developer\Desktop\clit\Module\NSW0560P.dll
+C:\Users\developer\Desktop\clit\Module\NSW0560P.pdb
+C:\Users\developer\Desktop\clit\TOKUDAI\NSW0560P\obj\Debug\NSW0560P.dll
+C:\Users\developer\Desktop\clit\TOKUDAI\NSW0560P\obj\Debug\NSW0560P.pdb
+C:\Users\developer\Desktop\clit\TOKUDAI\Module\NSW0560P.dll.config
+C:\Users\developer\Desktop\clit\TOKUDAI\Module\NSW0560P.dll
+C:\Users\developer\Desktop\clit\TOKUDAI\Module\NSW0560P.pdb
+C:\Users\developer\Desktop\clit\TOKUDAI\03 NSWORK\NSW0560P\obj\Debug\NSW0560P.vbprojResolveAssemblyReference.cache
+C:\Users\developer\Desktop\clit\TOKUDAI\03 NSWORK\NSW0560P\obj\Debug\NSW0560P.dll
+C:\Users\developer\Desktop\clit\TOKUDAI\03 NSWORK\NSW0560P\obj\Debug\NSW0560P.pdb
+C:\Users\developer\Desktop\NSAID\TOKUDAI\TOKUDAI\Module\NSW0560P.dll.config
+C:\Users\developer\Desktop\NSAID\TOKUDAI\TOKUDAI\Module\NSW0560P.dll
+C:\Users\developer\Desktop\NSAID\TOKUDAI\TOKUDAI\Module\NSW0560P.pdb
+C:\Users\developer\Desktop\NSAID\TOKUDAI\TOKUDAI\03 NSWORK\NSW0560P\obj\Debug\NSW0560P.vbprojResolveAssemblyReference.cache
+C:\Users\developer\Desktop\NSAID\TOKUDAI\TOKUDAI\03 NSWORK\NSW0560P\obj\Debug\NSW0560P.dll
+C:\Users\developer\Desktop\NSAID\TOKUDAI\TOKUDAI\03 NSWORK\NSW0560P\obj\Debug\NSW0560P.pdb
